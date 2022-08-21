@@ -1,18 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import NewsFeed from "./NewsFeed";
-import ProfileCard from "./ProfileCard";
-import ProfileDetails from "./ProfileDetails";
-import SideBar from "./SideBar";
+import Body from "./Body";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <ProfileCard />
-      <ProfileDetails />
-      <NewsFeed />
-      <SideBar />
+      <Body />
     </React.Fragment>
   );
 }

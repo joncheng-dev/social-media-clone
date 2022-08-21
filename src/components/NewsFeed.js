@@ -3,7 +3,7 @@ import News from "./News";
 
 function NewsFeed() {
   return (
-    <div className="newsFeed">
+    <div className="news-feed">
       <News />
     </div>
   );

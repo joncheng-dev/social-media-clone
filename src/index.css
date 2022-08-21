@@ -10,11 +10,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.profileCard {
-  background-color: lightblue;
+/* Primary Divisions */
+.header {
+  background-color: #536473;
 }
 
-/* 
-.newsFeed {
+.body {
+  display: flex;
+}
+
+/* Page Columns */
+.left {
+  width: 30%;
+  margin: 1rem;
+  background-color: #f1f1f1;
+}
+
+.center {
+  width: 40%;
+  margin: 1rem;
+  background-color: #9ed2c6;
+}
+
+.right {
+  width: 30%;
+  margin: 1rem;
+  background-color: #54bab9;
+}
+
+/* Page Components (Parents)*/
+.profile-main {
+  display: flex;
+  height: 400px;
+  margin-bottom: 100px;
+  background-color: #1c3879;
+}
+
+.profile-details {
+  height: 400px;
+  background-color: #607eaa;
+}
+
+.news-feed {
+  height: 400px;
+}
+
+.side-bar {
+  height: 400px;
+}
+
+/* Page Component (Children) */
+.side-bar-item {
+  background-color: #839aa8;
+}
+
+/* .side-bar-item-name {
 
 } */
