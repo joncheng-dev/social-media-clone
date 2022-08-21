@@ -12,7 +12,7 @@ code {
 
 /* Primary Divisions */
 .header {
-  background-color: #536473;
+  background-color: #d93d66;
 }
 
 .body {
@@ -27,15 +27,14 @@ code {
 }
 
 .center {
-  width: 40%;
+  width: 45%;
   margin: 1rem;
-  background-color: #9ed2c6;
+  background-color: #536473;
 }
 
 .right {
-  width: 30%;
+  width: 25%;
   margin: 1rem;
-  background-color: #54bab9;
 }
 
 /* Page Components (Parents)*/
@@ -47,23 +46,35 @@ code {
 }
 
 .profile-details {
-  height: 400px;
   background-color: #607eaa;
+  height: 400px;
 }
 
 .news-feed {
-  height: 400px;
+  background-color: #839aa8;
 }
 
 .side-bar {
   height: 400px;
+  font-size: 1.5em;
+  background-color: #54bab9;
+  border: 0.1em solid gray;
+  padding: 0.5em;
 }
 
 /* Page Component (Children) */
 .side-bar-item {
-  background-color: #839aa8;
+  background-color: #9ed2c6;
+  display: flex;
+  border: 1px solid black;
+  margin: 1em;
 }
 
-/* .side-bar-item-name {
+.side-bar-left-column {
+  width: 50%;
+  text-align: center;
+}
 
-} */
+.side-bar-right-column {
+  width: 50%;
+}

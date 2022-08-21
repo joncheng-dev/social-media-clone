@@ -6,6 +6,8 @@ function SideBar() {
     <div className="side-bar">
       <h5>Side Bar</h5>
       <SideBarItem />
+      <SideBarItem />
+      <SideBarItem />
     </div>
   );
 }
