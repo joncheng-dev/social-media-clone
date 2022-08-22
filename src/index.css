@@ -43,15 +43,18 @@ code {
   height: 400px;
   margin-bottom: 100px;
   background-color: #1c3879;
+  border: 0.1em solid gray;
 }
 
 .profile-details {
   background-color: #607eaa;
   height: 400px;
+  border: 0.1em solid gray;
 }
 
 .news-feed {
   background-color: #839aa8;
+  border: 0.1em solid gray;
 }
 
 .side-bar {
@@ -77,4 +80,18 @@ code {
 
 .side-bar-right-column {
   width: 50%;
+}
+
+.news-feed-search {
+  display: flex;
+  background-color: gray;
+  padding: 1rem;
+}
+
+.news-feed-user-icon {
+  width: 30%;
+}
+
+.news-feed-search-bar {
+  width: 70%;
 }
