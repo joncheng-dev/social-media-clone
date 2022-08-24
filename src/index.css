@@ -10,6 +10,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+img {
+  height: 60%;
+  width: 60%;
+  object-fit: contain;
+}
+
 /* Primary Divisions */
 .header {
   background-color: #d93d66;
@@ -53,7 +59,9 @@ code {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Change the color of links on hover */
@@ -109,6 +117,7 @@ code {
   background-color: #607eaa;
   height: 400px;
   border: 0.1em solid gray;
+  padding: 20px;
 }
 
 .news-feed {
@@ -117,7 +126,7 @@ code {
 }
 
 .side-bar {
-  height: 400px;
+  height: 500px;
   font-size: 1.5em;
   background-color: #54bab9;
   border: 0.1em solid gray;
@@ -141,6 +150,10 @@ code {
   width: 50%;
 }
 
+.side-bar-item-pic {
+  padding-top: 10px;
+}
+
 .news-feed-search {
   display: flex;
   background-color: gray;
@@ -156,10 +169,12 @@ code {
 }
 
 .news-item {
+  border: 1px solid #ccc;
   display: flex;
 }
 
 .news-item-left {
+  padding-top: 25px;
   width: 30%;
 }
 
