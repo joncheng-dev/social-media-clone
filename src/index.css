@@ -70,12 +70,15 @@ code {
 
 /* Style the search box inside the navigation bar */
 .topnav input[type="text"] {
-  float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+}
+
+.tweet-form {
+  float: right;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -97,7 +100,7 @@ code {
 .profile-main {
   display: flex;
   height: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   background-color: #1c3879;
   border: 0.1em solid gray;
 }
@@ -149,5 +152,17 @@ code {
 }
 
 .news-feed-search-bar {
+  width: 70%;
+}
+
+.news-item {
+  display: flex;
+}
+
+.news-item-left {
+  width: 30%;
+}
+
+.news-item-right {
   width: 70%;
 }

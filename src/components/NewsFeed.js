@@ -6,7 +6,9 @@ function NewsFeed() {
   return (
     <div className="news-feed">
       <NewsFeedSearch />
-      <News />
+      <News name="Balrog" comment="I will get you!" />
+      <News name="Gandalf" comment="You shall not pass!" />
+      <News name="Gollum" comment="My precious.." />
     </div>
   );
 }

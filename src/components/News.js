@@ -1,18 +1,18 @@
 import React from "react";
 
-function News() {
-  const name = "Thato";
-  const name2 = "Haley";
+function News(props) {
   return (
     <React.Fragment>
-      <h3>3a</h3>
-      <h3>
-        {name} and {name2}
-      </h3>
-      <p>
-        <em>Firebase entries not saving!</em>
-      </p>
-      <hr />
+      <div className="news-item">
+        <div className="news-item-left">Picture</div>
+        <div className="news-item-right">
+          <h3>{props.name}</h3>
+          <p>
+            <em>{props.comment}</em>
+          </p>
+          <hr />
+        </div>
+      </div>
     </React.Fragment>
   );
 }
