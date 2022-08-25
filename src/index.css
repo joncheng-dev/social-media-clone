@@ -113,6 +113,13 @@ img {
   border: 0.1em solid gray;
 }
 
+.profile-main-buttons {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: blue;
+}
+
 .profile-details {
   background-color: #607eaa;
   height: 400px;
