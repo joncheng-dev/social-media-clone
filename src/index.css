@@ -106,18 +106,38 @@ img {
 }
 
 .profile-main {
-  display: flex;
-  height: 400px;
+  position: relative;
+  height: 100%;
+  width: 100%;
   margin-bottom: 20px;
-  background-color: #1c3879;
+  background-color: #f2eceb;
   border: 0.1em solid gray;
+}
+
+.profile-main-top {
+  border: 0.1em solid gray;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 100px;
+  height: calc(100% - 100);
+  width: 100%;
+  background-color: #1c3879;
+}
+
+.profile-main-bottom {
+  border: 0.1em solid gray;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: white;
 }
 
 .profile-main-buttons {
   width: auto;
   height: auto;
-  display: inline-block;
-  background-color: blue;
 }
 
 .profile-details {
