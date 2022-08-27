@@ -7,10 +7,10 @@ function ProfileMain() {
         <h3>Profile Main</h3>
       </div>
       <div className="profile-main-bottom">
-        <div className="profile-main-buttons">
-          <button>one</button>
-          <button>two</button>
-          <button>three</button>
+        <div>
+          <button className="profile-main-buttons">TWEETS</button>
+          <button className="profile-main-buttons">FOLLOWING</button>
+          <button className="profile-main-buttons">FOLLOWERS</button>
         </div>
         <br />
       </div>
