@@ -142,10 +142,14 @@ img {
   padding-right: 10%;
   position: relative;
 }
-/* 
-.profile-main-picture {
 
-} */
+.profile-main-picture {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  height: 250px;
+  width: 250px;
+}
 
 .profile-main-buttons-row {
   display: flex;
